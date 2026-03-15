@@ -3,7 +3,7 @@ session_start();
 include('../includes/config.php');
 
 // Get form data
-$username = $_POST['username'];
+$username = trim($_POST['username']);
 $password = $_POST['password'];
 
 // Validate inputs
